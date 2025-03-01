@@ -48,8 +48,8 @@ importers:
         specifier: 7.9.0
         version: 7.9.0(eslint@9.6.0)(typescript@5.4.5)
       '@yarnpkg/shell':
-        specifier: 4.0.2
-        version: 4.0.2(typanion@3.14.0)
+        specifier: 4.1.2
+        version: 4.1.2(typanion@3.14.0)
       dictionary-en:
         specifier: 4.0.0
         version: 4.0.0
@@ -1136,16 +1136,16 @@ packages:
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  '@yarnpkg/fslib@3.1.0':
-    resolution: {integrity: sha512-wsj7/sUVSdXOIX/qwaON/Ky5GsP5gs9ry9DKwgLbWT7k3qw4/EcHAtfTtPhBYu33UibzBFI+fgB4wBRVH2XVaw==}
+  '@yarnpkg/fslib@3.1.2':
+    resolution: {integrity: sha512-FpB2F1Lrm43F94klS9UN0ceOpe/PHZSpJB7bIkvReF/ba890bSdu1NokSKr998yaFee7yqeD9Wkid5ye7azF3A==}
     engines: {node: '>=18.12.0'}
 
-  '@yarnpkg/parsers@3.0.2':
-    resolution: {integrity: sha512-/HcYgtUSiJiot/XWGLOlGxPYUG65+/31V8oqk17vZLW1xlCoR4PampyePljOxY2n8/3jz9+tIFzICsyGujJZoA==}
+  '@yarnpkg/parsers@3.0.3':
+    resolution: {integrity: sha512-mQZgUSgFurUtA07ceMjxrWkYz8QtDuYkvPlu0ZqncgjopQ0t6CNEo/OSealkmnagSUx8ZD5ewvezUwUuMqutQg==}
     engines: {node: '>=18.12.0'}
 
-  '@yarnpkg/shell@4.0.2':
-    resolution: {integrity: sha512-DLZSx06OoEbPY1uePt7pKEgpWDk96PldrCdWBPqI5Np5/YAEo6+toVcjz+6fORMOE8PS3Bsep1Nfm2mUrY1Oxg==}
+  '@yarnpkg/shell@4.1.2':
+    resolution: {integrity: sha512-1ET4cNNd7//2tXHnLiHGzBbry5mlEmoKL8f32E5EKnn8Ke/gAcILeFdbX2G9C9w/7uBmFyWeSs530ib0SofVPQ==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -4788,19 +4788,19 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@yarnpkg/fslib@3.1.0':
+  '@yarnpkg/fslib@3.1.2':
     dependencies:
       tslib: 2.6.2
 
-  '@yarnpkg/parsers@3.0.2':
+  '@yarnpkg/parsers@3.0.3':
     dependencies:
       js-yaml: 3.14.1
       tslib: 2.6.2
 
-  '@yarnpkg/shell@4.0.2(typanion@3.14.0)':
+  '@yarnpkg/shell@4.1.2(typanion@3.14.0)':
     dependencies:
-      '@yarnpkg/fslib': 3.1.0
-      '@yarnpkg/parsers': 3.0.2
+      '@yarnpkg/fslib': 3.1.2
+      '@yarnpkg/parsers': 3.0.3
       chalk: 3.0.0
       clipanion: 4.0.0-rc.3(typanion@3.14.0)
       cross-spawn: 7.0.3
